@@ -14,7 +14,7 @@ formatStr = '%Y-%m-%dT%H:%M:%SZ'
 vnoteConfigName = '_vnote.json'
 # vnote的模板文件
 vnoteTemplate = {
-    "created_time": "2020-11-12T15:09:09Z",
+    "created_time": "",
     "files": [],
     "sub_directories": [],
     "version": "1"
@@ -116,7 +116,6 @@ if __name__ == "__main__":
         sys.exit()
     # 笔记本目录 下面放着文件
     path = sys.argv[1]
-    # path = 'E:/SkyDrive/OneDrive-FengMing.ting/OneDrive/笔记/VNote'
     print('处理目录'+path+'!')
     # 获取文件名列表
     createVnoteConfig(path)
