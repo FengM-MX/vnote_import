@@ -97,7 +97,7 @@ def createVnoteConfig(path):
 # 主程序
 if __name__ == "__main__":
     # 笔记本目录 下面放着文件
-    path = 'E:/SkyDrive/OneDrive-FengMing.ting/OneDrive/笔记/VNote'
+    path = ''
     # 获取文件名列表
     createVnoteConfig(path)
     print('vnote文件夹解析完成！')
