@@ -7,7 +7,7 @@ import re
 # 需要进行匹配导入笔记的文件
 includeFile = [r'.*\.md']
 # 排除在外，不进行遍历的文件夹的名字
-excludeFolder = ['image', '_v_images', '_v_attachments']
+excludeFolder = ['image', '_v_images', '_v_attachments','_v_recycle_bin']
 # 时间格式化字符串
 formatStr = '%Y-%m-%dT%H:%M:%SZ'
 # vnote的配置文件名称
